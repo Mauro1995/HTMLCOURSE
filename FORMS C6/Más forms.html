@@ -1,0 +1,47 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Formulario de inscripción</title>
+    </head>
+    <body>
+        <header>
+            <h1> Instututo tecnológico Beltràn - Formulario de inscripción</h1>
+        </header>
+        <section id="Inscripción">
+            <form>
+                <ul>
+                    <li>
+                        <input type="text" name="Name" placeholder="Nombre y Apellido">
+                    </li>
+                    <li>
+                        <label for="Fecha de nacimiento"> Ingresá tu edad</label>
+                        <input type="date" name="Fecha de nacimiento" id="Fecha de nacimiento" placeholder="Tu edad">
+                    </li>
+                    <li>
+                        <label for="Carreras"> Elegí una carrera</label>
+                        <select id="Carreras">
+                            <option value="0" disabled selected> Carreras </option>
+                            <option value="1">Tecnicatura en sistemas</option>
+                            <option value="2"> Análisis de data </option>
+                        </select>
+                    </li>
+                    <li>
+                        <label for="Profesores"> Elegì Catedra</label>
+                        <input type="text" id="Profesores" name="Catedra" list="Catedras">
+                        <datalist id="Catedras">
+                            <option value="1"> Federico González</option>
+                            <option value="2"> Ernesto Guevara</option>
+                            <option value="3"> Pepe Pompín</option>
+                        </datalist>
+                    </li>
+                    <li>
+                        <button type="submit"> Enviar Inscripción</button>
+                        <button type="reset"> Reestablecer </button>
+                    </li>
+                </form>
+        </section>
+    </body>
+    </html>

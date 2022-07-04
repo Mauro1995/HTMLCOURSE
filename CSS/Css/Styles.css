@@ -1,0 +1,57 @@
+/*
+Regla Css consta de 2 partes 
+1) Selector - Etiquetas , etc 
+2) Bloque de declaraciones 
+- Atributos - atributo: valor;
+atributo-de-mas-de-dos-palabras; otro-valor*/
+
+/*son mala practica porque son bloqueantes cuando el navegador lee este tipo de instruccion */
+@import url(otra-hoja.css);
+
+h1 {
+    color: orangered;
+    background-color: black;
+}
+
+/* 
+Selectores Básicos:
+1)Etiquetas - son elementos html
+2)ID - atributo id - #
+3)Clases - atributo class - (.)
+*/
+
+/* Etiquetas :
+*/
+
+p {
+    color: midnightblue;
+}
+
+/* Estilos con id - - se los considera un antiPatrón */
+
+#parrafo-dos{
+    background-color: skyblue;
+}
+
+/* Class - pueden reutilizar códico CSS
+-- Podés ordenarlas por orden alfabético para tenerlas mas a mano */
+
+.bg-skyblue{
+    ackground-color: skyblue;
+}
+
+.bg-steelblue{
+    background-color: steelblue;
+}
+
+.text-20 {
+font-size: 20px;
+}
+
+.text-32{
+    font-size: 32px;
+}
+
+.text-white {
+    color: white;
+}

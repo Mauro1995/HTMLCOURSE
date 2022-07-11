@@ -8,10 +8,7 @@ atributo-de-mas-de-dos-palabras; otro-valor*/
 /*son mala practica porque son bloqueantes cuando el navegador lee este tipo de instruccion */
 @import url(otra-hoja.css);
 
-h1 {
-    color: orangered;
-    background-color: black;
-}
+
 
 /* 
 Selectores Básicos:
@@ -22,6 +19,11 @@ Selectores Básicos:
 
 /* Etiquetas :
 */
+
+h1 {
+    color: orangered;
+    background-color: black;
+}
 
 p {
     color: midnightblue;
@@ -37,7 +39,7 @@ p {
 -- Podés ordenarlas por orden alfabético para tenerlas mas a mano */
 
 .bg-skyblue{
-    ackground-color: skyblue;
+    background-color: skyblue;
 }
 
 .bg-steelblue{

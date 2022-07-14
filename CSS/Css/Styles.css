@@ -127,4 +127,14 @@ font-size: 20px;
     font-style: italic;
 }
 
+/*Selector universal (*) */
+
+* {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', sans-serif
+}
+
+.selector-universal * {
+    font-size: 26px;
+}
+
 

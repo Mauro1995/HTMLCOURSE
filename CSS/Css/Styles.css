@@ -75,10 +75,18 @@ font-size: 20px;
 
 /*Los selectores de hermanos se aplican a elementos hermanos y POR DEBAJO del selector de referencia*/
 
+/*General - todos los que estan por debajo*/
+
 .hermanos-general ~ li {
     background-color: thistle;
 }
 
-.hermanos-adyacentes + li {
+/*adyacente - solo el que esta adyacente por debajo*/
+
+.hermanos-adyacente + li {
     background-color: thistle;
+}
+
+.selectores-atributos a[href] {
+    color: orangered;
 }

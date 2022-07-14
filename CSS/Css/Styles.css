@@ -72,3 +72,13 @@ font-size: 20px;
 .hijos-descendientes b {
     background-color: thistle;
 }
+
+/*Los selectores de hermanos se aplican a elementos hermanos y POR DEBAJO del selector de referencia*/
+
+.hermanos-general ~ li {
+    background-color: thistle;
+}
+
+.hermanos-adyacentes + li {
+    background-color: thistle;
+}

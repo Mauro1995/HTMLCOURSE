@@ -20,6 +20,13 @@ Selectores Básicos:
 /* Etiquetas :
 */
 
+
+html {
+    scroll-behavior: smooth;
+}
+
+       
+
 h1 {
     color: orangered;
     background-color: black;
@@ -35,7 +42,7 @@ p {
     background-color: skyblue;
 }
 
-/* Class - pueden reutilizar códico CSS
+/* Class - pueden reutilizar código CSS
 -- Podés ordenarlas por orden alfabético para tenerlas mas a mano */
 
 .bg-skyblue{
@@ -56,4 +63,12 @@ font-size: 20px;
 
 .text-white {
     color: white;
+}
+
+.hijos-directos >li {
+    background-color: thistle;
+}
+
+.hijos-descendientes b {
+    background-color: thistle;
 }

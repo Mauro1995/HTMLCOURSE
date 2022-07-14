@@ -87,6 +87,44 @@ font-size: 20px;
     background-color: thistle;
 }
 
+/*Selectores por atrtibutos*/
+
 .selectores-atributos a[href] {
     color: orangered;
 }
+
+.selectores-atributos a[target="_blank"] {
+    font-weight: bold;
+}
+
+/*el comodin * se aplica cuando el atributo contiene el texto citado en cualquier parte */
+
+.selectores-atributos a[href*="jonmircha"] {
+    font-size: 24px;
+}
+
+/*el comodin ^ se aplica cuando el atributo contiene el texto citado al inicio */
+
+.selectores-atributos a[href^="http://"] {
+    text-decoration: none;
+}
+
+/*el comodin $ se aplica cuando el atributo contiene el texto citado al final */
+
+.selectores-atributos a[href$=".com/"] {
+    background-color: black;
+}
+
+/*el comodin ~ se aplica cuando el atributo contiene el texto citado en una lista separada por espacios */
+
+.selectores-atributos a[class~="cursos"] {
+    background-color: midnightblue;
+}
+
+/*el comodin | se aplica cuando el atributo contiene el texto citado en una lista separada por espacios y la palabra luego tenga un guión medio - */
+
+.selectores-atributos a[class|="menu"] {
+    font-style: italic;
+}
+
+

@@ -137,4 +137,48 @@ font-size: 20px;
     font-size: 26px;
 }
 
+/*Pseudo-Clases : dan estilo dependiendo del contexto, posicion o estado del elemento
+https://developer.mozilla.org/es/docs/Web/CSS/Pseudo-elements
+ */
 
+.form-pseudoclases *:required{
+    border-color: yellow;
+}
+
+.form-pseudoclases *:valid{
+    border-color: green;
+}
+
+.form-pseudoclases *:invalid{
+    border-color: red;
+}
+
+.form-pseudoclases *:focus{
+    color: skyblue;
+}
+
+.form-pseudoclases *:disabled{
+    color: pink;
+}
+
+/*------------hover cuando te pones encima del elemento---------------------------------
+
+:active
+:link
+:hover
+:active
+
+*/
+
+.menu-pseudoclases a:visited{
+    color: olive;
+}
+
+
+.menu-pseudoclases a:hover{
+    color: orange;
+}
+
+.p-pseudoclases:hover{
+    font-size: 20px;
+}

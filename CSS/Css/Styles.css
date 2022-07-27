@@ -241,15 +241,15 @@ font-size: 20px;
 /*Pseudo-elementos se diferencian con :: - Dan estilos a partes específicas de un documento - chequear categorias en mozilla dev pag. */
 
 .saga-geminis::before{
-    content: 🤼‍♀️;
+    content: "🤼‍♀️";
 }
 
 .saga-geminis::after{
-    content: ♊;
+    content: "♊";
 }
 
 .saga-precio::before{
-    content: 💲;
+    content: "💲";
     font-weight: bold;
 }
 
@@ -258,3 +258,19 @@ font-size: 20px;
     font-weight: bold;
 }
 
+.p-pseudoelementos::first-letter{
+    font-weight: bolder;
+    font-size: 32px;
+}
+
+.p-pseudoelementos::first-line{
+    color: coral;
+}
+
+.p-pseudoelementos::selection{
+    color: greenyellow;
+    background-color: black;
+}
+.input-placeholder::placeholder{
+    color: green;
+}
